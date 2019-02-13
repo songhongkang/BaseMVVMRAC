@@ -1,0 +1,70 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Appirater (2.0.5)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (3.2.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.0)
+  - Reveal-SDK (4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Appirater (= 2.0.5)
+  - DZNEmptyDataSet
+  - IQKeyboardManager (= 3.2.0.3)
+  - Masonry
+  - MBProgressHUD (~> 1.1.0)
+  - Reachability
+  - ReactiveObjC
+  - Reveal-SDK (from `https://git.coding.net/kakukeme/Reveal-SDK.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Appirater
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - Reachability
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  Reveal-SDK:
+    :git: https://git.coding.net/kakukeme/Reveal-SDK.git
+
+CHECKOUT OPTIONS:
+  Reveal-SDK:
+    :commit: ffdbc623851467394a99effb2dfced2f61c358f1
+    :git: https://git.coding.net/kakukeme/Reveal-SDK.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Appirater: e7c0a47fb67ee5041ce8479e6ba960927fb40264
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 7b071d1284b47b1c0c19891a042c2c65f118fa85
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  Reveal-SDK: 6504f524a2e7138913251139ba30a03b3da91792
+
+PODFILE CHECKSUM: 4d430869eec68f487de4d8212eea45ecb81ff472
+
+COCOAPODS: 1.5.3
